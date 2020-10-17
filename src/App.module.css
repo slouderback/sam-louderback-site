@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.navList {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 65px;
+  max-width: 100%;
+  list-style-type: none;
+  background-color: white;
+  gap: 20px;
+}
+
+.linkItem {
+  text-decoration: none;
+  color: black;
+}
+
+.logo {
+  margin-right: auto;
+}
