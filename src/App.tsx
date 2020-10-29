@@ -26,7 +26,8 @@ export const App: React.FC = () => {
             <ul className={styles.navList}>
               <li className={styles.logo}>
                 <Link to="/" className={styles.linkItem}>
-                  <p>Logo Here</p>
+                  {/* <img src={require('../src/ImageResources/SL_Logo_2.png')} className={styles.logoImage}/> */}
+                  <p>Logo here</p>
                 </Link>
               </li>
               <li>
